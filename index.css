@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #65887c98;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+}
+
+#logo{
+    width: 200px;
+    height: 46px;
+}
+
+.vertical-center{
+    padding: 10px;
+}
+
+nav{
+    display: flex;   
+    width: 600px;
+    justify-content: space-between;
+    margin-right: 45px;
+}
+
+.purple-section{
+    height: 97vh;
+    background-image: url("images/purple.png");
+    background-size: cover;
+    background-position: 0% 42%;
+}
