@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    background-color: #65887c98;
+    background-color: #65887c65;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -32,5 +32,14 @@ nav{
     height: 97vh;
     background-image: url("images/purple.png");
     background-size: cover;
-    background-position: 0% 42%;
+    background-position: 0% 49%;
+}
+
+#laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 610px;
+    padding-top: 160px;
+    padding-right: 16px;
 }
