@@ -4,12 +4,15 @@ body{
 }
 
 .header{
-    background-color: #65887c65;
     display: flex;
     justify-content: space-between;
     width: 100%;
     position: fixed;
     padding: 17px 20px 17px 20px;
+    background-color: #65887c65;
+    /*
+    Dynamic background-color requires JS 
+    */
 }
 
 #logo{
@@ -44,6 +47,37 @@ nav a{
     font-family: Roboto, sans-serif;
     line-height: 28px;
     font-weight: 500;
+}
+
+.arrow-down1 {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.arrow-down2 {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.arrow-down3 {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .purple-section{
@@ -84,14 +118,25 @@ nav a{
 }
 
 .primary-button {
-    background-color: #fe9000;;
+    background-color: #fe9000;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    width: 208px;
+    height: 48px;
+    border-radius: 2px;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .white-border {
     display: block;
     padding-top: 110px;
     padding-bottom: 110px;
-    height: 350px;;
+    height: 380px;;
 }
 
 .featured-in {
@@ -101,16 +146,24 @@ nav a{
     margin-top: 0px;
     font-weight: 600;
     margin-bottom: 50px;
+    color: #434146;
 }
 
 .layout-grid {
+    width: 900px;
+    margin: 0 auto;
+}
 
+.layout-row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .quote {
     text-align: center;
     font-size: 24px;
     font-style: italic;
+    color: #434146;
 }
 
 .teal-section {
